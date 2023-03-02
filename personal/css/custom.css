@@ -1,0 +1,164 @@
+body
+{
+  background: url(../images/wallpaper.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@font-face {
+  font-family: navFont;
+  src: url(../fonts/BaksoSapi.otf);
+}
+
+@font-face {
+  font-family: titleFont;
+  src: url(../fonts/Rounded_Elegance.ttf);
+}
+
+@font-face {
+  font-family: headFont;
+  src: url(../fonts/Cute_Meow.otf);
+}
+
+nav ul
+{
+  list-style: none;
+  padding: 0px;
+  margin-top: 0px;
+  display: flex;
+}
+
+nav ul a
+{
+  background-color: #A1D1FF;
+  border: solid 1px #5E8CD1;
+  flex-grow: 1;
+  text-align: center;
+  padding: 10px;
+  font-size: 15pt;
+  font-family: navFont;
+}
+nav ul a:hover{
+  background-color: #FFE47D;
+}
+
+nav ul a:focus{
+  background-color: rgba(255, 228, 125, .9);
+  outline: none;
+}
+
+h1
+{
+  text-align: center;
+  font-family: titleFont;
+  font-size: 22pt;
+  margin-top:0;
+  margin-bottom: 0;
+}
+
+#head
+{
+    text-align: left;
+    font-size: 40pt;
+    padding: 20px;
+    position: relative;
+  	top: 50%;
+    background-image: url(../images/header.png);
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+    font-family: headFont;
+
+}
+
+.nav:link
+{
+  text-decoration: none;
+  color: black;
+}
+
+.nav:visited
+{
+  color: black;
+}
+
+.nav:hover
+{
+  text-decoration: underline;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+a:active
+{
+  color: red;
+}
+
+#wrap
+{
+  width: 75%;
+  margin: 0 auto;
+  background-color: rgba(223, 193, 250, 0.8);
+  border: rgba(250, 200, 250, 0.9);
+  border-radius: 15px;
+}
+
+#mainArea
+{
+  min-height: 61vh;
+  padding: 10px;
+}
+
+.formInput
+{
+  font-size: 13pt;
+  outline-color: #FFE47D;
+  padding: 5px;
+  border-color: rgba(250, 200, 250, 0.9);
+  border-radius: 5px;
+  font-family: "helvetica";
+  margin: 3px;
+}
+.formSelect
+{
+  width: 30%;
+  height: 50%;
+}
+
+.formBtn
+{
+  font-size: 15pt;
+  width: 20%;
+  height: 10%;
+}
+
+.formBtn:hover
+{
+  cursor: pointer;
+}
+
+footer
+{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  display: flex;
+}
+
+#socialMedia
+{
+  width: 50%;
+  text-align: right;
+}
+
+#signiture
+{
+  width: 50%;
+}
+p
+{
+  margin-top: 0;
+}

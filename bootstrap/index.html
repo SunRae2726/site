@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Media query for narrow browser width -->
+    <link rel="stylesheet" media="only screen and (max-width: 540px)" href="css/mobile.css">
+
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 541px)" href="css/desktop.css">
+
+    <!-- Prevent smartphones from scaling pages down -->
+    <meta name="viewport" content="initial-scale=1">
+
+    <title>Care For Cats: Home</title>
+    <link rel="icon" href="favicon.png" type="image/png"/>
+    <!-- CSS only -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <!-- <link href="css/desktop.css" type="text/css" rel="stylesheet">-->
+  </head>
+  <body>
+    <!--Credits for Images for Home Page:
+    Favicon: PikPng https://www.pikpng.com/transpng/hixmwJ/
+    Carousel Image1: Pet WebMD https://pets.webmd.com/cats/cat-vaccines#1
+    Carousel Image2: National Geographic https://www.nationalgeographic.com/animals/article/cats-questions-pets-faucets-bellies
+    Carousel Image3: The Humane Society of the United States https://www.humanesociety.org/animals/cats
+    About Image: Everyone Health Redbridge https://redbridge.everyonehealth.co.uk/2020/09/21/smoke-killing-pets/
+  -->
+  <style>
+  .col-md-12{
+    padding: 0;
+  }
+  </style>
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-12" id="cookieBanner">
+          <div class="col-md-8"id="cookieText">
+            <h4>This Website Uses Cookies</h4>
+            <p style="font-size:12pt;">This website or its third-party tools use cookies, which are necessary to its functioning and required to
+             acheive the purposes illustrated in the cookie policy. By closing this banner, scrolling this page,
+             or continuing to browse otherwise, you agree to the use of cookies.</p>
+          </div>
+          <button type="button" class="btn btn-dark col-md-1" id="acceptBtn">I Accept</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" id="title" href="index.html">Care for Cats</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="info.html">Info</a>
+                  </li>
+                  <li class="nav-item">
+                    <img src="images/nightMode.png" alt="nightMode" class="nav-link" id="nightMode"/>
+                  </li>
+                  <li class="nav-item col-md-12" id="donate">
+                    <a href="donate.html"><button type="button" class="btn btn-danger">Donate</button></a>
+                  </li>
+
+              </div>
+            </div>
+
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12 container">
+
+            <!--Carousel from Bootstrap-->
+          		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          			<div class="carousel-indicators">
+          				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          		  	</div>
+          		  <div class="carousel-inner">
+          			<div class="carousel-item active">
+          			  <img  src="images/cat1.jpg" class="d-block w-100" alt="Orange Cat">
+          			</div>
+          			<div class="carousel-item">
+          			  <img src="images/cat2.png" class="d-block w-100" alt="White and Brown Cat">
+          			</div>
+          			<div class="carousel-item">
+          			  <img src="images/cat3.jpg" class="d-block w-100" alt="Grey Cat">
+          			</div>
+          		  </div>
+          		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          			<span class="visually-hidden">Previous</span>
+          		  </button>
+          		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+          			<span class="visually-hidden">Next</span>
+          		  </button>
+          		</div>
+              <!--End of Carousel from Bootstrap-->
+              <div class="bottom-left"><h2>Find Out How Covid is Affecting Cats <br/> <a href="info.html#covidCats"> Learn More <img src="images/next.png" id="next" alt="&gt;"/> </a></h2></div>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-6" style="padding:0;">
+            <img src="images/cat4.png" class="img-fluid" alt="Sad Cat">
+          </div>
+          <div class="col-md-6" style=" padding:20px;">
+            <h3 class="pNight">
+              Cats Need Help
+              <small class="text-muted">and <i>Care For Cats</i> is Here to Aid</small>
+            </h3>
+            <hr/>
+            <p class="pNight">All around the world, cats are being abused and abandoned. Many are sent to shelters, but that doesn't always end the ordeal.
+              Shelters may have more resorces compared to a single household, but they also have to care for a lot more cats.
+              Many people think lightly of sending their cats to shelters if they suddenly don't want them anymore.
+              But, it's thoughts like these that cause shelter overflows, leading to worse and worse conditions for these poor kitties.
+              <i>Care For Cats</i> is a non-profit charity that raises money for these struggling cats. </p>
+          </div>
+      </div>
+
+      <footer class="row">
+        <div class="col-md-9">
+          <h1 class="display-6">Care For Cats, <br/>Give Them Pats!</h1>
+        </div>
+        <div class="col-md-3">
+          <h1 class="display-6">Join our Mailing List</h1>
+          <div class="col-md-11">
+            <form>
+              <label for="mailingList" class="form-label">Sign up to get the latest information about this cause</label>
+              <input type="email" class="form-control" id="mailingList" placeholder="Enter your email address...">
+              <button type="submit"  class="btn btn-dark" style="margin-top:10px;">Sign Up</button>
+          </form>
+          </div>
+        </div>
+        &nbsp;
+      <hr/>
+      </footer>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

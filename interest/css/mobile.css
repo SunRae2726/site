@@ -1,0 +1,181 @@
+body{
+  background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 0.65) 100%), url(../images/wallpaper.png) no-repeat center center fixed;
+  -webkit-background: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+@font-face {
+  font-family: navFont;
+  src: url(../fonts/Rounded_Elegance.ttf);
+}
+@font-face {
+  font-family: headFont;
+  src: url(../fonts/DESIGNER.otf);
+}
+
+@font-face {
+  font-family: quote;
+  src: url(../fonts/ccwildwords.ttf);
+}
+
+@font-face {
+  font-family: subHeading;
+  src: url(../fonts/CaviarDreams.ttf);
+}
+
+h1
+{
+  font-family: headFont;
+	margin: 0;
+  letter-spacing: 8px;
+  font-size: 25px;
+}
+
+h2{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+h3{
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-family: subHeading;
+}
+
+h4{
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: subHeading;
+}
+
+p{
+  padding-right: 45px;
+}
+
+header{
+	color: white;
+	display: flex;
+  flex-direction: column;
+	padding: 10px;
+  align-items: center;
+}
+
+header a, header a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+	  margin: 0;
+	  padding: 0;
+	  align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+	margin: 10px;
+	justify-content: space-between;
+  font-size: 15px;
+}
+nav ul a{
+	padding: 5px;
+	font-family: navFont;
+}
+
+nav ul a:link{
+	color: white;
+	text-decoration: none;
+}
+nav ul a:visited{
+	color: white;
+}
+
+nav ul a:hover{
+	border: 1px solid;
+	border-color: #EECFA3;
+	color: #EECFA3;
+	border-radius: 5px;
+}
+
+#quote
+{
+  position:absolute;
+   bottom: 10px;
+   width: 100%;
+   font-family: quote;
+   display: none;
+}
+
+.mainArea{
+  background-color: #212940;
+  width: 90%;
+  color: white;
+  margin: 0 auto;
+  min-height: 90vh;
+  padding: 10px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.cover{
+  width: 30vw;
+
+  margin: 10px;
+  border: 3px solid white;
+}
+
+.covers{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+a{
+  color: gold;
+  text-decoration: none;
+}
+
+a:hover{
+  color: lightyellow;
+  text-decoration: underline;
+}
+
+hr{
+  border: none;
+  background-color: gold;
+  color: gold;
+  height: 1px;
+}
+
+.merch{
+  width: 60vw;
+  margin: 5px;
+  border: 2px solid white;
+}
+
+.recCover{
+  display: block;
+  width: 50vw;
+  margin: 0 auto;
+  border: 3px solid white;
+  align-items: center;
+}
+
+.recs
+{
+  flex-wrap: no-wrap;
+}
+
+.noMobile
+{
+  display: none;
+}

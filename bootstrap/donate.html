@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Media query for narrow browser width -->
+    <link rel="stylesheet" media="only screen and (max-width: 540px)" href="css/mobile.css">
+
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 541px)" href="css/desktop.css">
+
+    <!-- Prevent smartphones from scaling pages down -->
+    <meta name="viewport" content="initial-scale=1">
+
+    <title>Care For Cats: Donate</title>
+    <link rel="icon" href="favicon.png" type="image/png"/>
+    <!-- CSS only -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <!--Credits for Images for Home Page:
+    thanks image: iStock https://www.istockphoto.com/photos/cat-thank-you
+    -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12" style="padding: 0;">
+          <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" id="title" href="index.html">Care for Cats</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="info.html">Info</a>
+                  </li>
+                  <li class="nav-item">
+                    <img src="images/nightMode.png" alt="nightMode" class="nav-link" id="nightMode"/>
+                  </li>
+                  <li class="nav-item col-md-12" id="donate">
+                    <a href="donate.html"><button type="button" class="btn btn-danger">Donate</button></a>
+                  </li>
+
+              </div>
+            </div>
+
+          </nav>
+        </div>
+      </div>
+
+      <div class="row padding">
+          <div class="col-md-6">
+            <img src="images/thanks.jpeg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-md-6" style="min-height: 60vh; display: flex; flex-direction:column;">
+            <h1 class="display-5 pNight" id="donateTitle">Support Cats, Donate Today</h1>
+            <p class="pNight"><b>We are a non-profit.</b> All Proceeds will go to helping cats to not only find families, but allow them to live long healthy lives.
+              The costs of providing for these cute cats continues to rise every day, every penny counts towards our cause.
+              We would appreciate any contribution you make. Donating is a great way to contribute to our cause without needing to take on the job to
+              foster your own cat. To learn more about how your donations are used, join our mailing list at the bottom of the page.
+              <b>Help these cats live the life they deserve.</b></p>
+              <br/>
+            <div class="row BtnGroup">
+                <div class="col-md-4">
+                  <button type="button" class="btn btn-info donateBtns">$10</button>
+                </div>
+                <div class="col-md-4">
+                  <button type="button" class="btn btn-info donateBtns">$50</button>
+                </div>
+                <div class="col-md-4">
+                  <button type="button" class="btn btn-info donateBtns">$100</button>
+                </div>
+              </div>
+              <div class="row BtnGroup">
+                <div class="col-md-4">
+                  <button type="button" class="btn btn-info donateBtns">$250</button>
+                </div>
+                <div class="col-md-4">
+                  <button type="button" class="btn btn-info donateBtns">$1000</button>
+                </div>
+              <div class="col-md-4">
+                <div class="input-group mb-3" style="margin: 5px;">
+                    <span class="input-group-text">$</span>
+                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Other amount...">
+                  </div>
+              </div>
+            </div>
+            <div class="row" style="margin-top: 15px;">
+              <div class="col-md-6">
+                <div class="form-check" style="align-Items:center;">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="margin-right:5px;">
+                  <label class="form-check-label pNight" for="flexCheckDefault">
+                    Make this a Monthly Donation
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-6 alignRight">
+                <button type="button" class="btn btn-success" id="donateSuccess">DONATE</button>
+              </div>
+            </div>
+          </div>
+      </div>
+      <footer class="row">
+        <div class="col-md-9">
+          <h1 class="display-6">Care For Cats, <br/>Give Them Pats!</h1>
+        </div>
+        <div class="col-md-3">
+          <h1 class="display-6">Join our Mailing List</h1>
+          <div class="col-md-11">
+            <form>
+              <label for="mailingList" class="form-label">Sign up to get the latest information about this cause</label>
+              <input type="email" class="form-control" id="mailingList" placeholder="Enter your email address...">
+              <button type="submit"  class="btn btn-dark" style="margin-top:10px;">Sign Up</button>
+          </form>
+          </div>
+        </div>
+        &nbsp;
+      <hr/>
+      </footer>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
